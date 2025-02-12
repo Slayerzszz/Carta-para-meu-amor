@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(240, 170, 181);
+}
+
+h1{
+    text-transform: uppercase;
+    size: 2rem;
+}
+
+.poster{
+    text-align: center;
+    text-size-adjust: 300px;
+}
+
+p{
+    font-size: 25px;
+}
+.emoji{
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+    margin-left: 25%;
+    width: 50%;
+}
+
+@media (max-width: 680px){
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .poster{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .poster img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .emoji{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        font-size: 120%;
+    }
+}
